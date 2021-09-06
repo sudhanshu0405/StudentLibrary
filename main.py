@@ -1,3 +1,4 @@
+import time
 class Library:
     def __init__(self, listOfBooks):
         self.books = listOfBooks
@@ -52,6 +53,7 @@ if __name__ == "__main__":
             centraLibrary.returnBook(student.returnBook())
         elif a == 4:
             print("Thanks for choosing Central Library. Have a great day ahead!")
+            time.sleep(2)
             exit()
         else:
             print("Invalid Choice!")
